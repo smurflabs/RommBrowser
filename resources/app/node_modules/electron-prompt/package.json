@@ -1,0 +1,40 @@
+{
+  "name": "electron-prompt",
+  "version": "1.7.0",
+  "description": "Electron helper to prompt for a value via input or select",
+  "keywords": [
+    "electron",
+    "prompt",
+    "string"
+  ],
+  "author": {
+    "name": "p-sam",
+    "email": "p-sam@users.noreply.github.com",
+    "url": "https://github.com/p-sam"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-sam/electron-prompt.git"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "test": "npm run lint"
+  },
+  "xo": {
+    "esnext": true,
+    "env": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "unicorn/prefer-ternary": 0,
+      "unicorn/prefer-module": 0
+    }
+  },
+  "devDependencies": {
+    "xo": "^0.44.0"
+  }
+}

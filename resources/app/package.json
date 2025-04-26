@@ -1,0 +1,32 @@
+{
+  "name": "RommBrowser",
+  "version": "106.0.0",
+  "description": "Romm Browser",
+  "private": true,
+  "author": {
+    "name": "Romm Browser"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "electron-prompt": "^1.7.0"
+  },
+  "scripts": {},
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
